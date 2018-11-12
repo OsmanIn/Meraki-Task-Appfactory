@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 900;
+  color: #666d89;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #767e9e;
+}
+h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 900;
+  color: #666d89;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #767e9e;
+  line-height: 21px;
+}
